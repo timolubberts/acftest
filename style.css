@@ -1,0 +1,146 @@
+.splide__slide {
+  text-align: center;
+}
+
+.splide__slide img {
+  width: 300px;
+  height: 300px;
+}
+
+.home .main {
+  height: 200px;
+  background-color: #5975a3;
+}
+
+.home .main .menu ul {
+  padding: 50px 0px;
+  list-style: none;
+}
+
+.home .main .menu ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.default-text {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+.purple {
+  color: purple;
+}
+
+.green {
+  color: green;
+}
+
+.block-1 {
+  background-color: #82abed;
+}
+
+.block-1__title {
+  padding: 20px;
+}
+
+.block-1__title h2 {
+  display: inline-block;
+  margin: 0px 100px;
+}
+
+.block-1__content {
+  padding: 10px;
+}
+
+.block-1__slider {
+  padding: 50px 0px;
+}
+
+.rainbow-bg {
+  -webkit-animation: rainbow-bg 2.5s linear;
+          animation: rainbow-bg 2.5s linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes rainbow-bg {
+  100%, 0% {
+    background-color: red;
+  }
+  8% {
+    background-color: #ff7f00;
+  }
+  16% {
+    background-color: yellow;
+  }
+  25% {
+    background-color: chartreuse;
+  }
+  33% {
+    background-color: lime;
+  }
+  41% {
+    background-color: springgreen;
+  }
+  50% {
+    background-color: cyan;
+  }
+  58% {
+    background-color: #007fff;
+  }
+  66% {
+    background-color: blue;
+  }
+  75% {
+    background-color: #7f00ff;
+  }
+  83% {
+    background-color: magenta;
+  }
+  91% {
+    background-color: #ff007f;
+  }
+}
+
+@keyframes rainbow-bg {
+  100%, 0% {
+    background-color: red;
+  }
+  8% {
+    background-color: #ff7f00;
+  }
+  16% {
+    background-color: yellow;
+  }
+  25% {
+    background-color: chartreuse;
+  }
+  33% {
+    background-color: lime;
+  }
+  41% {
+    background-color: springgreen;
+  }
+  50% {
+    background-color: cyan;
+  }
+  58% {
+    background-color: #007fff;
+  }
+  66% {
+    background-color: blue;
+  }
+  75% {
+    background-color: #7f00ff;
+  }
+  83% {
+    background-color: magenta;
+  }
+  91% {
+    background-color: #ff007f;
+  }
+}
+/*# sourceMappingURL=style.css.map */
